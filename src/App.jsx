@@ -16,7 +16,7 @@ function App() {
     setAdvice(respons.slip.advice)
     setNumber(respons.slip.id)
     debugger
-    setTimeout(() => setLoading(false), 2000)
+    setTimeout(() => setLoading(false), 1000)
   }
 
   useEffect(() => {
