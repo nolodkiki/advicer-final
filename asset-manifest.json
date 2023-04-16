@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/advicer-final/static/css/main.17c4eac9.css",
-    "main.js": "/advicer-final/static/js/main.4f264683.js",
+    "main.css": "/advicer-final/static/css/main.570453a6.css",
+    "main.js": "/advicer-final/static/js/main.5b09b73d.js",
     "index.html": "/advicer-final/index.html",
     "static/media/icon-dice.svg": "/advicer-final/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
     "static/media/pattern-divider-desktop.svg": "/advicer-final/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
-    "main.17c4eac9.css.map": "/advicer-final/static/css/main.17c4eac9.css.map",
-    "main.4f264683.js.map": "/advicer-final/static/js/main.4f264683.js.map"
+    "main.570453a6.css.map": "/advicer-final/static/css/main.570453a6.css.map",
+    "main.5b09b73d.js.map": "/advicer-final/static/js/main.5b09b73d.js.map"
   },
   "entrypoints": [
-    "static/css/main.17c4eac9.css",
-    "static/js/main.4f264683.js"
+    "static/css/main.570453a6.css",
+    "static/js/main.5b09b73d.js"
   ]
 }
