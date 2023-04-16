@@ -11,16 +11,15 @@ function App() {
 
   const getAdvice = async () => {
     setLoading(true)
-    const data = await fetch('https://api.adviceslip.com/advice')
+    const data = await fetch('https://api.adviceslip.com/advice', {cache: "no-store"})
     const respons = await data.json()
     setAdvice(respons.slip.advice)
     setNumber(respons.slip.id)
-    setTimeout(() => setLoading(false), 2000)
+    setLoading(false)
   }
 
   useEffect(() => {
     getAdvice()
-    setLoading(false)
   }, [])
 
   return (
@@ -33,7 +32,7 @@ function App() {
             <img className="mx-auto" src={separator} alt="" />
           </div></>}
           
-          <button onClick={() => getAdvice()} className={`${loading ? 'blur' : null} hover:shadow-shadow absolute -bottom-8 right-2/4 translate-x-2/4 h-16 w-16 rounded-full bg-green flex items-center justify-center`}>
+          <button onClick={() => getAdvice()} className={`${loading ? 'blur cursor-wait' : null} hover:shadow-shadow absolute -bottom-8 right-2/4 translate-x-2/4 h-16 w-16 rounded-full bg-green flex items-center justify-center`}>
             <img src={cube} alt="" />
           </button>
         </div>
