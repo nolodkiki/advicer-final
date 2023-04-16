@@ -15,7 +15,7 @@ function App() {
     const respons = await data.json()
     setAdvice(respons.slip.advice)
     setNumber(respons.slip.id)
-    setTimeout(() => setLoading(false), 1000)
+    setTimeout(() => setLoading(false), 2000)
   }
 
   useEffect(() => {
