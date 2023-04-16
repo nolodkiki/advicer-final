@@ -15,7 +15,6 @@ function App() {
     const respons = await data.json()
     setAdvice(respons.slip.advice)
     setNumber(respons.slip.id)
-    debugger
     setTimeout(() => setLoading(false), 1000)
   }
 
